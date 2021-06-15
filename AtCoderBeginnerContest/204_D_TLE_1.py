@@ -1,7 +1,7 @@
 # 試行錯誤コードその1
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 import itertools
 N = int(stdin.readline())

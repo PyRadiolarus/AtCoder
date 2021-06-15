@@ -2,7 +2,7 @@
 # Python 3.8.2 で 2207ms/55704KB。TLE。
 # PyPy3 7.3.0 で 2211ms/203000KB。TLE。
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 import itertools
 N = int(stdin.readline().rstrip())

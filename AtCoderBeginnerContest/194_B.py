@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 N = int(stdin.readline())
 data = [tuple(map(int, stdin.readline().split())) for _n in range(N)]
 ans = float("inf")

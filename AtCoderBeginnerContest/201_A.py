@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 An = list(map(int,stdin.readline().split()))
 A_1 = An[0]

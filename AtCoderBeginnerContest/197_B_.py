@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 H, W, X, Y = map(int, stdin.readline().rstrip().split())
 S = [stdin.readline().rstrip() for _ in range(H)]

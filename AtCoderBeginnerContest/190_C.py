@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from itertools import product
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 def bits():
     ans = 0

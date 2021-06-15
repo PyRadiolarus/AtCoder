@@ -2,7 +2,7 @@
 # PyPyなら実行時間は0.3sec程度でACを出せる。メモリ使用量は69MB程度。メモリ使用量はPythonと比べて約7倍だが、メモリ制限は1GBなので全く気にならない。
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 N = int(stdin.readline().rstrip())
 A = [*map(int, stdin.readline().rstrip().split())]

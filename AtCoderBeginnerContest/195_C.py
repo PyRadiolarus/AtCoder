@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 N = int(stdin.readline().rstrip())
 if N >= 1000:

@@ -2,7 +2,7 @@
 # Python 3.8.2 で 2206ms/28272KB。TLE。
 # PyPy3 7.3.0 で 2209ms/103084KB。TLE。
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 N = int(stdin.readline())
 A = [int(i) for i in stdin.readline().split()]

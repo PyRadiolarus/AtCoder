@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from sys import stdin
 from math import sqrt
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 N = int(stdin.readline().rstrip())
 sr = int(sqrt(N))
 s = set()
