@@ -14,7 +14,7 @@
 ##########################
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../stdin.txt")
 n = stdin.readline()
 num = list(map(int, n))
 c = 0

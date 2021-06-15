@@ -29,7 +29,7 @@
 ##########################
 # -*- coding: utf-8 -*-
 #a, b, c, x = int(stdin.readline()), int(stdin.readline()), int(stdin.readline()), int(stdin.readline())
-a, b, c, x = map(int, open("stdin.txt"))
+a, b, c, x = map(int, open("../stdin.txt"))
 s = 0
 for i in range(a + 1):
     for j in range(b + 1):

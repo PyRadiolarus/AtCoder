@@ -24,7 +24,7 @@
 # -*- coding: utf-8 -*-
 from sys import stdin
 import copy
-stdin = open("stdin.txt")
+stdin = open("../stdin.txt")
 a = int(stdin.readline())
 num = list(map(int, stdin.readline().split()))
 res = 1

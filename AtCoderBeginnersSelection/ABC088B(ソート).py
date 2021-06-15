@@ -26,7 +26,7 @@
 ##########################
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../stdin.txt")
 n = int(stdin.readline())
 l = [int(x) for x in stdin.readline().split()]
 l.sort(reverse=True)

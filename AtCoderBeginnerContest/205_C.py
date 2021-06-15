@@ -1,7 +1,7 @@
 # Python 3.8.2 で提出、28 ms / 9232 KB でAC。コード長 711 byte。
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../../stdin.txt")
 
 A, B, C = map(int, stdin.readline().split())
 if 0 < A < B:

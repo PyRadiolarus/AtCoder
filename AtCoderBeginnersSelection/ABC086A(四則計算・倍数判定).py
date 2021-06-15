@@ -27,7 +27,7 @@
 ##########################
 # -*- coding: utf-8 -*-
 from sys import stdin
-stdin = open("stdin.txt")
+stdin = open("../stdin.txt")
 # 整数の入力
 a, b = map(int, stdin.readline().split())
 #a, b = map(int, input().split())
