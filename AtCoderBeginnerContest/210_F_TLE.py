@@ -1,3 +1,5 @@
+# Python 3.8.2 で 3380ms/2471688KB。TLE。
+# PyPy3 7.3.0 で 3354ms/1459020KB。TLE。
 from sys import stdin
 stdin = open("../stdin.txt")
 
